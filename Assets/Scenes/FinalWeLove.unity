@@ -134,15 +134,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: ae2610eac4f93dc4dabdbf4236184d67, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.5834
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ae2610eac4f93dc4dabdbf4236184d67, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.5834
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ae2610eac4f93dc4dabdbf4236184d67, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.5834
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ae2610eac4f93dc4dabdbf4236184d67, type: 3}
       propertyPath: m_LocalPosition.x
@@ -198,6 +198,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae2610eac4f93dc4dabdbf4236184d67, type: 3}
       insertIndex: -1
       addedObject: {fileID: 942295344}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ae2610eac4f93dc4dabdbf4236184d67, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 942295346}
   m_SourcePrefab: {fileID: 100100000, guid: ae2610eac4f93dc4dabdbf4236184d67, type: 3}
 --- !u!1 &662409135 stripped
 GameObject:
@@ -281,6 +284,35 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0.57, z: 0}
+--- !u!114 &942295346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942295341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0038c16c34866b4f9e25c9c0dc0f7e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Behavior::Unity.Behavior.BehaviorGraphAgent
+  m_Graph: {fileID: -420646262185933415, guid: 96a72b26a90bbf3479ac00962e50f328, type: 2}
+  m_BlackboardVariableOverridesList:
+  - rid: 5430148284892315851
+  m_OriginalGraph: {fileID: -420646262185933415, guid: 96a72b26a90bbf3479ac00962e50f328, type: 2}
+  m_IsInitialised: 0
+  m_IsStarted: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 5430148284892315851
+      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 1
+          m_Value1: 0
+        Name: Self
+        m_Value: {fileID: 942295341}
 --- !u!1 &1227099295
 GameObject:
   m_ObjectHideFlags: 0
@@ -640,7 +672,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: d9cd8eb4a074cd84ab2686c58bcf21d9, type: 3}
       propertyPath: m_ApplyRootMotion
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
