@@ -506,6 +506,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1338773029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338773026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5095e38ebc3de96469928561174a4fc0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &1366288681
 GameObject:
   m_ObjectHideFlags: 0
@@ -655,7 +667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c58b13c73f02ae4e8d441a257294d27, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.59
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c58b13c73f02ae4e8d441a257294d27, type: 3}
       propertyPath: m_LocalPosition.y
@@ -663,7 +675,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c58b13c73f02ae4e8d441a257294d27, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.51
+      value: 3.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5c58b13c73f02ae4e8d441a257294d27, type: 3}
       propertyPath: m_LocalRotation.w
@@ -704,6 +716,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5c58b13c73f02ae4e8d441a257294d27, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1338773028}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5c58b13c73f02ae4e8d441a257294d27, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1338773029}
   m_SourcePrefab: {fileID: 100100000, guid: 5c58b13c73f02ae4e8d441a257294d27, type: 3}
 --- !u!1001 &1675983837
 PrefabInstance:
