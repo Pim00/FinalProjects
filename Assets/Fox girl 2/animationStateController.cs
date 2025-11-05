@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class controller : MonoBehaviour
+public class animationStateController : MonoBehaviour
 {
     Animator animator;
     int isRunningHash;
@@ -15,13 +15,16 @@ public class controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        bool Running = animator.GetBool(isRunningHash);
-        bool forwardPressed = Input.GetKey("w");
-        if (!Running && forwardPressed)
+        bool isRunning = animator.GetBool(isRunningHash);
+        bool forwardPressed = Input.GetKey("r");
+
+        if (!isRunning && forwardPressed)
         {
             animator.SetBool(isRunningHash, true);
         }
-        if (Running && !forwardPressed)
-        {   animator.SetBool(isRunningHash, false); }
+        if (isRunning && !forwardPressed)
+        {  
+            animator.SetBool(isRunningHash, false); 
+        }
     }
 }
